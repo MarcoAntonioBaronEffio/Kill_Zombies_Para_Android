@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "962662002082",
+    "firebase_url": "https://juego-de-zombies-f7165.firebaseio.com",
+    "project_id": "juego-de-zombies-f7165",
+    "storage_bucket": "juego-de-zombies-f7165.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:962662002082:android:e9d6647cf24115e6cb96fb",
+        "android_client_info": {
+          "package_name": "com.redsystem.juegodezombies"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "962662002082-c0hp02uq9sf0ulpugeqra7mlq54dpkot.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.redsystem.juegodezombies",
+            "certificate_hash": "2d6158a500bfb06f33ee3842f9c8cbd4769afd47"
+          }
+        },
+        {
+          "client_id": "962662002082-barr49jm790p9gmjmjbm063dprm59400.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA0vPs5I8RSgTNCuS46quXZuRHTRaiGUGk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "962662002082-barr49jm790p9gmjmjbm063dprm59400.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

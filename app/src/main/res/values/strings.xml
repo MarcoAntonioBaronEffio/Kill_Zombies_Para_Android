@@ -1,0 +1,88 @@
+<resources>
+    <string name="app_name">Kill Zombie</string>
+
+    <!--ACTIVIDAD MAIN ACTIVITY-->
+    <string name="BTNLOGIN">LOGIN</string>
+    <string name="BTNREGISTRO">REGISTRO</string>
+
+    <!--ACTIVIDAD REGISTRO-->
+    <string name="REGISTROTXT">REGISTRO</string>
+    <string name="correoEt">Correo electrónico</string>
+    <string name="passEt">Contraseña</string>
+    <string name="nombreEt">Nombre</string>
+    <string name="edadEt">Edad</string>
+    <string name="paisEt">País</string>
+    <string name="fechaTxt">Fecha</string>
+    <string name="Registrar">REGISTRAR</string>
+
+    <!--ACTIVIDAD LOGIN-->
+    <string name="correoLogin">Correo electrónico</string>
+    <string name="passLogin">Contraseña</string>
+    <string name="BtnLogin">INGRESAR</string>
+
+    <!--MENU-->
+    <string name="MiPerfiltxt">Mi Perfil</string>
+    <string name="MiPuntuaciontxt">Mi Puntuacion</string>
+    <string name="Zombies"> -- </string>
+    <string name="uid"> -- </string>
+    <string name="correo"> -- </string>
+    <string name="nombre"> -- </string>
+    <string name="edad"> -- </string>
+    <string name="pais"> -- </string>
+    <string name="fecha"> -- </string>
+
+    <string name="Menutxt">Menu</string>
+
+    <string name="JugarBtn">Jugar</string>
+    <string name="EditarBtn">Editar</string>
+    <string name="CambiarPassBtn">Cambiar Contraseña</string>
+    <string name="PuntuacionesBtn">Puntuaciones</string>
+    <string name="AcercaDeBtn">Acerca de</string>
+    <string name="CerrarSesionBtn">Cerrar Sesión</string>
+
+    <!--ESCENARIO-->
+    <string name="TvContador"> 0 </string>
+    <string name="TvNombre"> ---- </string>
+    <string name="TvTiempo"> 0S</string>
+
+    <!--PANTALLA-->
+    <string name="AnchoTv"> -- </string>
+    <string name="AltoTv"> -- </string>
+
+    <!--GAMEOVER-->
+    <string name="SeacaboTXT">!Se acabó el tiempo¡</string>
+    <string name="HasmatadoTXT">Has Matado</string>
+    <string name="NumeroTXT"> -- </string>
+    <string name="JUEGARDENUEVO">JUGAR DE NUEVO</string>
+    <string name="IRMENU">MENÚ</string>
+    <string name="PUNTAJES">VER PUNTAJES</string>
+
+
+    <!--DATOA DEL JUGADOR EN LA LISTA-->
+    <string name="NombreJugador">Nombre</string>
+    <string name="CorreoJugador">Correo</string>
+    <string name="PuntajeJugador">Puntaje</string>
+    <string name="EdadJugador">Edad</string>
+    <string name="PaisJugador">Pais</string>
+
+
+    <!--DETALLE DEL JUGADOR-->
+    <string name="INFORMACIONDETALLE">INFORMACION DEL JUGADOR</string>
+    <string name="NombresDetalle"> Nombres </string>
+    <string name="CorreoDetalle"> Correo </string>
+    <string name="PuntajeDetalle"> Puntaje </string>
+    <string name="EdadDetalle"> Edad </string>
+    <string name="PaisDetalle"> Pais </string>
+
+    <!---->
+    <string name="ActualPass">Actual contraseña</string>
+    <string name="NuevoPass">Nueva constraseña</string>
+    <string name="CambiarPass">Cambiar contraseña</string>
+
+    <!--ACERCA DE-->
+    <string name="DesarrolladorPOTXT">Desarrollado Por:</string>
+    <string name="DevTXT">MI NOMBRE</string>
+    <string name="OK">OK</string>
+
+
+</resources>

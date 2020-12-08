@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/escena"
+    tools:context=".EscenarioJuego">
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <!--INFORMACION-->
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:weightSum="6"
+            android:background="#000000"
+            android:orientation="horizontal">
+
+            <!--X Y Y-->
+            <androidx.appcompat.widget.LinearLayoutCompat
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="5dp"
+                android:layout_weight="1">
+
+                <!--X-->
+                <TextView
+                    android:id="@+id/AnchoTv"
+                    android:text="@string/AnchoTv"
+                    android:textColor="#ffffff"
+                    android:layout_gravity="center"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+                <!--Y-->
+                <TextView
+                    android:id="@+id/AltoTv"
+                    android:text="@string/AltoTv"
+                    android:textColor="#ffffff"
+                    android:layout_gravity="center"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+            </androidx.appcompat.widget.LinearLayoutCompat>
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:src="@drawable/muertes"
+                android:layout_width="30dp"
+                android:layout_height="50dp"
+                android:layout_marginStart="3dp"
+                android:layout_weight="1"/>
+
+            <!--CONTADOR-->
+            <TextView
+                android:id="@+id/TvContador"
+                android:text="@string/TvContador"
+                android:textColor="#ffffff"
+                android:textSize="20sp"
+                android:layout_marginStart="3dp"
+                android:gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"/>
+
+            <!--NOMBRE DEL JUGADOR-->
+            <TextView
+                android:id="@+id/TvNombre"
+                android:text="@string/TvNombre"
+                android:textColor="#ffffff"
+                android:textSize="15sp"
+                android:layout_marginStart="3dp"
+                android:gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"/>
+
+            <!--ANIMACIÓN-->
+            <com.airbnb.lottie.LottieAnimationView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_marginStart="3dp"
+                app:lottie_imageAssetsFolder="assets"
+                app:lottie_fileName="tiempo.json"
+                app:lottie_loop="true"
+                app:lottie_autoPlay="true"
+                android:layout_weight="1"/>
+
+            <!--TIEMPO-->
+            <TextView
+                android:id="@+id/TvTiempo"
+                android:text="@string/TvTiempo"
+                android:textColor="#ffffff"
+                android:layout_marginStart="3dp"
+                android:textSize="15sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"/>
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+        <!--ZOMBIE-->
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="5dp">
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/IvZombie"
+                android:layout_width="180dp"
+                android:layout_height="180dp"
+                android:src="@drawable/zombie"/>
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+</RelativeLayout>

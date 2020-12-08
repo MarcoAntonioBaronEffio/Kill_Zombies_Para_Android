@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:background="#ffffff"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <TextView
+            android:id="@+id/SeacaboTXT"
+            android:text="@string/SeacaboTXT"
+            android:gravity="center"
+            android:textColor="#0B2F3A"
+            android:textSize="25sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:id="@+id/HasmatadoTXT"
+            android:text="@string/HasmatadoTXT"
+            android:gravity="center"
+            android:textColor="#0B2F3A"
+            android:textSize="25sp"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:id="@+id/NumeroTXT"
+            android:text="@string/NumeroTXT"
+            android:gravity="center"
+            android:textColor="#0B2F3A"
+            android:textSize="25sp"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <!--ANIMACIÓN-->
+        <com.airbnb.lottie.LottieAnimationView
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="5dp"
+            app:lottie_imageAssetsFolder="assets"
+            app:lottie_fileName="finjuego.json"
+            android:paddingTop="10dp"
+            app:lottie_loop="true"
+            app:lottie_autoPlay="true"/>
+        <Button
+            android:id="@+id/JUEGARDENUEVO"
+            android:text="@string/JUEGARDENUEVO"
+            android:background="@drawable/boton_personalizado"
+            android:layout_marginTop="10dp"
+            android:textColor="#ffffff"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <Button
+            android:id="@+id/IRMENU"
+            android:text="@string/IRMENU"
+            android:background="@drawable/boton_personalizado"
+            android:layout_marginTop="10dp"
+            android:textColor="#ffffff"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <Button
+            android:id="@+id/PUNTAJES"
+            android:text="@string/PUNTAJES"
+            android:background="@drawable/boton_personalizado"
+            android:layout_marginTop="10dp"
+            android:textColor="#ffffff"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+
+</RelativeLayout>

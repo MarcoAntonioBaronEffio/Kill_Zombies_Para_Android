@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    android:clickable="true"
+    android:focusable="true"
+    android:foreground="?android:attr/selectableItemBackground"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:backgroundTint="#E6E6E6"
+    app:cardUseCompatPadding="true"
+    app:cardCornerRadius="10dp"
+    android:elevation="2dp"
+    app:contentPadding="5dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/ImagenJugador"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/jugador"/>
+
+        <!--IMAGEN DE PERFIL-->
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <!--NOMBRES-->
+            <TextView
+                android:id="@+id/NombreJugador"
+                android:text="@string/NombreJugador"
+                android:textSize="20sp"
+                android:textColor="#000000"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <!--CORREO-->
+            <TextView
+                android:id="@+id/CorreoJugador"
+                android:text="@string/CorreoJugador"
+                android:textSize="20sp"
+                android:textColor="#000000"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <!--PUNTAJE-->
+            <TextView
+                android:id="@+id/PuntajeJugador"
+                android:text="@string/PuntajeJugador"
+                android:textSize="25sp"
+                android:textColor="#0040FF"
+                android:textStyle="bold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <!--EDAD INVISIBLE-->
+            <TextView
+                android:visibility="gone"
+                android:id="@+id/EdadJugador"
+                android:text="@string/EdadJugador"
+                android:textSize="25sp"
+                android:textColor="#0040FF"
+                android:textStyle="bold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <!--PAIS INVISIBLE-->
+            <TextView
+                android:visibility="gone"
+                android:id="@+id/PaisJugador"
+                android:text="@string/PaisJugador"
+                android:textSize="25sp"
+                android:textColor="#0040FF"
+                android:textStyle="bold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+</androidx.cardview.widget.CardView>
